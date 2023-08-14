@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { shapeChoices, createImage } = require('./lib/shapes.js');
+const { shapeChoices, createShape } = require('./lib/shapes.js');
 
 const init = () => {
     inquirer.prompt([
@@ -50,7 +50,7 @@ const createFile = () => {
     })
 };
 
-const generateSVG = ({ characters, textColor, shape, shaapeColor }) => {
+const generateSVG = ({ characters, textColor, shape, shapeColor }) => {
     const svgContent =
     `<svg version="1.1"
         width="300" height="200" 
@@ -58,7 +58,9 @@ const generateSVG = ({ characters, textColor, shape, shaapeColor }) => {
 
         <rect width="100%" height="100%" fill="white" />
     
-        ${shape}
+        ${shape.createShape(shape, shapeColor)}
+
+        <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${characters}</text>
     
     </svg>`
 
