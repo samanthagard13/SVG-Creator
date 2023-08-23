@@ -6,6 +6,8 @@
 
  This program creates an SVG with limited choices to make a quick logo.
 
+ ![Screenshot](./Images/Example-SVG-Screenshot.png)
+
  ## Installation
 
  Clone this repo to use the program.
@@ -13,6 +15,10 @@
  ## Usage
 
  Run 'node index.js' in your terminal to start the SVG Creator.
+
+ ![Walkthrough-Video](https://drive.google.com/file/d/1H8SmO29m4knJ77mZyzK0O0vIxDWK6q0P/view)
+
+ ![Screenshot](./Images/Screenshot.png)
 
   ## License
 
