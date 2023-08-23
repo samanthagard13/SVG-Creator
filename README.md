@@ -16,7 +16,7 @@
 
  Run 'node index.js' in your terminal to start the SVG Creator.
 
- ![Walkthrough-Video](https://drive.google.com/file/d/1H8SmO29m4knJ77mZyzK0O0vIxDWK6q0P/view)
+ [Walkthrough-Video](https://drive.google.com/file/d/1H8SmO29m4knJ77mZyzK0O0vIxDWK6q0P/view)
 
  ![Screenshot](./Images/Screenshot.png)
 
